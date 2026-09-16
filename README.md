@@ -27,14 +27,14 @@ A responsive PHP and MySQL task management application with a JSON-driven form b
 
 ## Local Setup With WAMP
 
-1. Copy the project into `C:\wamp64\www\php\practical\dynamic_task_form_builder`.
-2. Start Apache and MySQL from the WAMP control panel.
+1. Place the project folder inside your web server's document root. For WAMP this is commonly the `www` directory; for XAMPP it is commonly `htdocs`.
+2. Start Apache and MySQL from the local server control panel.
 3. Import [`database/schema.sql`](database/schema.sql) using phpMyAdmin or the MySQL client.
 4. Check the database values in [`config/config.php`](config/config.php).
 5. Confirm that the `uploads/` directory is writable by Apache.
-6. Open:
+6. Open the project through your local server, for example:
 
-	`http://localhost/php/practical/dynamic_task_form_builder/`
+   `http://localhost/dynamic_task_form_builder/`
 
 The application starts with a default form configuration if no settings have been saved yet.
 
