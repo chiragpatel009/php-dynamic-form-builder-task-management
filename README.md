@@ -98,7 +98,7 @@ git init
 git add .
 git commit -m "Initial dynamic task form builder"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git remote add origin https://github.com/chiragpatel009/php-dynamic-form-builder-task-management.git
 git push -u origin main
 ```
 
