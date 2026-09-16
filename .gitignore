@@ -1,0 +1,32 @@
+# Local configuration and secrets
+config/config.local.php
+.env
+.env.*
+!.env.example
+
+# Runtime uploads and generated files
+uploads/*
+!uploads/.gitkeep
+
+# Database dumps and local data
+*.sql.bak
+*.sqlite
+*.sqlite3
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+cache/
+tmp/

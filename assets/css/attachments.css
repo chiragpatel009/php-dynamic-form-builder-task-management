@@ -1,0 +1,64 @@
+.attachment-list {
+    display: flex;
+    gap: .8rem;
+    flex-wrap: wrap
+}
+
+.attachment-item {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    border: 1px solid #e4e8ee;
+    border-radius: 8px;
+    padding: .55rem .7rem
+}
+
+.attachment-item img {
+    width: 54px;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.attachment-item strong {
+    display: block;
+    font-size: .85rem
+}
+
+.attachment-item a {
+    display: block;
+    color: #3858d6;
+    font-size: .75rem
+}
+
+.file-icon {
+    font-size: 1.8rem;
+    color: #f47e68
+}
+
+.empty-attachments {
+    color: #6d7788;
+    font-size: .85rem
+}
+
+.compatibility-warning {
+    padding: 1.5rem;
+    background: #fff4df;
+    border: 1px solid #f2d19a;
+    border-radius: 10px;
+    color: #6c4b16
+}
+
+.compatibility-warning>i {
+    font-size: 1.6rem;
+    color: #c48718
+}
+
+.compatibility-warning h3 {
+    margin: .5rem 0;
+    font-size: 1.2rem
+}
+
+.compatibility-warning li {
+    margin: .25rem 0
+}
